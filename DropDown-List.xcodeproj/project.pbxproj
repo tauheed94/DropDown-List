@@ -14,6 +14,7 @@
 		58C6F4C51FBDDD5C00C9EC88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C6F4C31FBDDD5C00C9EC88 /* LaunchScreen.storyboard */; };
 		58C6F4D01FBDDD5D00C9EC88 /* DropDown_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C6F4CF1FBDDD5D00C9EC88 /* DropDown_ListTests.swift */; };
 		58C6F4DB1FBDDD5D00C9EC88 /* DropDown_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C6F4DA1FBDDD5D00C9EC88 /* DropDown_ListUITests.swift */; };
+		58C6F4E91FBDE20C00C9EC88 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C6F4E81FBDE20C00C9EC88 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		58C6F4D61FBDDD5D00C9EC88 /* DropDown-ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DropDown-ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58C6F4DA1FBDDD5D00C9EC88 /* DropDown_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDown_ListUITests.swift; sourceTree = "<group>"; };
 		58C6F4DC1FBDDD5D00C9EC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58C6F4E81FBDE20C00C9EC88 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				58C6F4BA1FBDDD5C00C9EC88 /* AppDelegate.swift */,
+				58C6F4E81FBDE20C00C9EC88 /* Extension.swift */,
 				58C6F4BC1FBDDD5C00C9EC88 /* ViewController.swift */,
 				58C6F4BE1FBDDD5C00C9EC88 /* Main.storyboard */,
 				58C6F4C11FBDDD5C00C9EC88 /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58C6F4E91FBDE20C00C9EC88 /* Extension.swift in Sources */,
 				58C6F4BD1FBDDD5C00C9EC88 /* ViewController.swift in Sources */,
 				58C6F4BB1FBDDD5C00C9EC88 /* AppDelegate.swift in Sources */,
 			);
