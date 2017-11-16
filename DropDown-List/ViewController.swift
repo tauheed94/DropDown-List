@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MMDrawerController
 
 class ViewController: UIViewController , UITableViewDelegate , UITableViewDataSource, UITextFieldDelegate {
    
@@ -62,6 +63,7 @@ class ViewController: UIViewController , UITableViewDelegate , UITableViewDataSo
         super.viewDidLoad()
         addNewView()
         textfield.delegate = self
+        view.backgroundColor = UIColor(patternImage: #imageLiteral(resourceName: "pattern"))
     }
     func addNewView() {
         view.addSubview(textfield)
